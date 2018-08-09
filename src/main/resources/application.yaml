@@ -1,0 +1,11 @@
+spring:
+# following can solve
+  datasource:
+    url: jdbc:h2:mem:fileupload
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+    initialization-mode: always
+    continue-on-error: false
+    #this is important for using name-specified sql
+    platform: h2
